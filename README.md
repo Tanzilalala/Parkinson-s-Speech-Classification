@@ -1,5 +1,27 @@
 # Parkinson-s-Speech-Classification
 
+Data Loading and Preprocessing:
+
+Loaded the dataset, checked for missing values, and split the data into features and target variables. The features included various attributes related to speech.
+
+Classifier Selection and Training:
+Considered several classifiers for this task: Support Vector Machine (SVM), Random Forest, XGBoost, K-Nearest Neighbors (KNN), Logistic Regression . Trained each classifier and evaluated its performance using accuracy as a metric.
+
+Classifier Performance:
+SVM Accuracy: (accuracy)
+Random Forest Accuracy: (accuracy)
+XGBoost Accuracy: (accuracy)
+K-Nearest Neighbors Accuracy: (accuracy)
+Logistic Regression: (accuracy)
+
+Visualizations and Insights:
+Generated visualizations to further analyze the results:
+Scatter plot of MDVP:Fo(Hz) vs MDVP:Jitter(%).
+Confusion matrices for SVM and Random Forest.
+ROC curve for XGBoost.
+Feature importances for XGBoost.
+ROC curve for logistic regression.
+
 1. **Accuracy Comparison:**
    - XGBoost and Random Forest classifiers achieved the highest accuracy among the models tested.
    - Logistic Regression, while simpler, also showed competitive performance.
